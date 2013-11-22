@@ -1,0 +1,5 @@
+D:\Magadhee\MagadheeDEC\bin\Debug\MagadheeDEC.dll
+D:\Magadhee\MagadheeDEC\bin\Debug\MagadheeDEC.pdb
+D:\Magadhee\MagadheeDEC\obj\Debug\ResolveAssemblyReference.cache
+D:\Magadhee\MagadheeDEC\obj\Debug\MagadheeDEC.dll
+D:\Magadhee\MagadheeDEC\obj\Debug\MagadheeDEC.pdb

@@ -1,0 +1,8 @@
+body {
+background-image:url(../Images/Home/1.jpg), url(../Images/Home/2.jpg);
+background-repeat: repeat-x, repeat;
+}
+html
+{
+	height:2000px;
+}

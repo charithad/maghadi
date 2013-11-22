@@ -1,0 +1,7 @@
+D:\Magadhee\MagadheeDAL\bin\Release\MagadheeDAL.dll
+D:\Magadhee\MagadheeDAL\bin\Release\MagadheeDAL.pdb
+D:\Magadhee\MagadheeDAL\bin\Release\MagadheeDEC.dll
+D:\Magadhee\MagadheeDAL\bin\Release\MagadheeDEC.pdb
+D:\Magadhee\MagadheeDAL\obj\Release\ResolveAssemblyReference.cache
+D:\Magadhee\MagadheeDAL\obj\Release\MagadheeDAL.dll
+D:\Magadhee\MagadheeDAL\obj\Release\MagadheeDAL.pdb

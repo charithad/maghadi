@@ -1,0 +1,9 @@
+D:\Magadhee\MgadheeService\bin\Debug\MgadheeService.dll
+D:\Magadhee\MgadheeService\bin\Debug\MgadheeService.pdb
+D:\Magadhee\MgadheeService\bin\Debug\MagadheeDAL.dll
+D:\Magadhee\MgadheeService\bin\Debug\MagadheeDEC.dll
+D:\Magadhee\MgadheeService\bin\Debug\MagadheeDAL.pdb
+D:\Magadhee\MgadheeService\bin\Debug\MagadheeDEC.pdb
+D:\Magadhee\MgadheeService\obj\Debug\ResolveAssemblyReference.cache
+D:\Magadhee\MgadheeService\obj\Debug\MgadheeService.dll
+D:\Magadhee\MgadheeService\obj\Debug\MgadheeService.pdb

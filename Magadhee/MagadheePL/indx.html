@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/common.css" rel="stylesheet" type="text/css" />
+<link href="dist/css/bootstrap-theme.css" rel="stylesheet">
+<link href="dist/css/jquery-ui.css" rel="stylesheet">
+<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<link href="font-awesome/css/font-awesome-ie7.css" rel="stylesheet">
+<link href="dist/css/bootstrap.css" rel="stylesheet">
+<link href="css/theme.css" rel="stylesheet">
+<title>SNS Holiday Homes</title>
+<script type='text/javascript' src="dist/js/respond.src.js"></script>
+<script type='text/javascript' src="dist/js/modernizr.custom.84719.js"></script>
+</head>
+<body>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    	
+    </div>
+    
+	<script src="Index/Js/jquery-1.4.3.min.js"></script>
+    <script src="dist/js/jquery.js"></script>
+    <script src="dist/js/bootstrap.js"></script>
+    <script src="dist/js/holder.js"></script>
+    <script src="Index/Js/jquery-ui-1.9.0.custom.min.js"></script>
+    <script src="dist/js/jquery-ui.js"></script>
+    <script src="dist/js/rotator.js"></script>
+    <script>
+    $('#my-carousel').carousel({
+    
+        interval: 5000,
+        cycle: true
+    
+    });
+    
+    $('#my-news-carousel').carousel({
+    
+        interval: 7000,
+        cycle: true
+    
+    });
+    
+    $("#BtnSub").click(function () {
+    
+        var t1 = $("#TextBox1").val();
+        var t2 = $("#TextBox2").val();
+        var t13 = $("#TextBox13").val();
+        
+        if (t1 == "") {
+            alert("First Name Field Can Not be Empty");
+            return false;
+        }
+    
+        if (t2 == "") {
+            alert("Last Name Field Can Not be Empty");
+            return false;
+        }
+    
+        if (t13 == "") {
+            alert("E-Mail Field Can Not be Empty");
+            return false;
+        }
+    
+    });    
+    </script>
+</body>
+</html>

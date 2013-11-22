@@ -1,0 +1,336 @@
+img.alignleft { padding: 5px; 
+				margin-right:10px;
+				margin-top:5px;
+				margin-bottom:5px;
+				display: inline; 
+			  }
+Img#ImgPeraDesc{
+	padding-left:18px;
+}
+img.alignRight { padding: 0px; 
+				margin-right:10px;
+				margin-top:0px;
+				margin-bottom:5px;
+				display: inline; 
+			  }
+
+.alignright { float: right; }
+.alignleft { float: left; }
+img.alignleftDesc { padding: 5px; 
+				margin-right:10px;
+				margin-top:5px;
+				margin-bottom:5px;
+				display: inline; 
+				width:260px;
+			  }
+.alignleftDesc  { float: left; }
+
+td#hisTd
+{
+font-size:11px;
+padding:12px;
+
+font-family:Arial;
+
+color:#333;
+
+}
+
+td#GenTd
+{
+font-size:6px;
+padding:8px;
+
+font-family:"Sans-serif", Arial, Verdana;
+
+color:#333;
+}
+
+Td#TdHead 
+{
+			 padding:3px;
+			 font-family:"Sans-serif", Arial, Verdana;
+			 color:#666;
+			 font-size:9px;
+			 font-weight:bold;
+			 border-color:#FFF;
+			 text-transform:uppercase;
+			 /*background-image:url(../../Event/Common/EventDescBack.gif);*/
+	         width:580px;
+			 Height:20px;
+}
+
+Td#TdDescEvent
+{
+			 padding:3px;
+			 background-image:url(../../Event/Common/EventDescBack.gif);
+			 background-repeat:no-repeat;
+			 width:580px;
+			 white-space:normal;
+	         
+}
+
+td#TdEvent
+{
+	
+			 
+			 
+			 font-family:"Sans-serif", Arial, Verdana;
+			 color:#666;
+			 font-size:8px;
+			 width:580px;
+			 border-color:#FFF;
+			 padding-right:10px;
+			 padding-top:5px;
+			 background-image:url(../../Event/Common/AEBack.jpg);
+			 background-repeat:no-repeat;
+			 white-space:pre-wrap;
+			 
+}
+td#TdHome
+{
+
+			 color:#666;
+			 font-size:8px;
+			 width:233px;
+			 border-color:#FFF;
+			 padding-top:5px;
+			 padding-left:5px;
+			 
+}
+.HomeLinktds
+{
+			 font-family:"Sans-serif", Arial, Verdana;
+			 color:#666;
+			 font-size:8px;
+			 width:450px;
+			 border-color:#FFF;
+			 padding-right:5px;
+			 padding-left:5px;
+			 padding-top:1px;
+			 background-image:url(../../Homeimages/HomeEventBack.jpg);
+			 background-repeat:no-repeat;
+			 white-space:pre-wrap;
+			 
+}
+
+.OPLinktds
+{
+			 font-family:"Sans-serif", Arial, Verdana;
+			 color:#666;
+			 font-size:10px;
+			 width:152px;
+			 border-color:#FFF;
+			 padding-right:5px;
+			 padding-left:5px;
+			 padding-top:1px;
+			 background-image:url(../../Homeimages/Images/placesback.gif);
+			 background-repeat:no-repeat;
+			 white-space:pre-wrap;
+			 
+}
+
+.DEventSe
+{
+	color:#000;
+	
+	position:absolute;
+	height:20px;
+	width:225px;
+	z-index:9999;
+	padding-top:5px;
+	padding-left:10px;
+	background-image:url(../../Homeimages/Images/DivBack.gif);
+	background-repeat:no-repeat;
+	
+	filter:alpha(opacity=40); 
+   -moz-opacity: 0.4; 
+   opacity: 0.4; 
+}
+.DEventSe span{ 
+				font-size: 11px; 
+				text-transform:uppercase;
+				font-weight:bold;
+				font-family:Tahoma, Geneva, sans-serif;
+			  }
+
+#DivAE
+{
+	color:#000;
+	
+	position:absolute;
+	height:20px;
+	width:225px;
+	z-index:9999;
+	padding-top:5px;
+	padding-left:10px;
+	background-image:url(../../Homeimages/Images/DivBack.gif);
+	background-repeat:no-repeat;
+	text-transform:uppercase;
+	font-weight:bold;
+	filter:alpha(opacity=60); 
+   -moz-opacity: 0.6; 
+   opacity: 0.6;
+}
+
+#DivOp
+{
+	color:#000;
+	position:absolute;
+	height:12px;
+	width:143px;
+	z-index:9999;
+	padding-top:5px;
+	padding-left:10px;
+	background-image:url('../../Homeimages/Images/leftheaderSpanImg.gif');
+	background-repeat:no-repeat;
+	text-transform:uppercase;
+	font-weight:bold;
+	filter:alpha(opacity=60);
+	-moz-opacity: 0.6;
+	opacity: 0.6;
+	
+	
+	
+}
+
+.DEventOp
+{
+	color:#000;
+	
+	position:absolute;
+	height:20px;
+	width:152px;
+	z-index:9999;
+	padding-top:5px;
+	padding-left:10px;
+	background-image:url(../../Homeimages/Images/leftheaderSpanImg.gif);
+	background-repeat:no-repeat;
+	
+	filter:alpha(opacity=70); 
+   -moz-opacity: 0.7; 
+   opacity: 0.7; 
+}
+.DEventOp span{ 
+				font-size: 11px; 
+				
+				font-weight:bold;
+				font-family:Tahoma, Geneva, sans-serif;
+			  }
+
+
+#DivSE
+{
+	color:#000;
+	
+	position:absolute;
+	height:20px;
+	width:225px;
+	z-index:9999;
+	padding-top:5px;
+	padding-left:10px;
+	background-image:url(../../Homeimages/Images/DivBack.gif);
+	background-repeat:no-repeat;
+	text-transform:uppercase;
+	font-weight:bold;
+	filter:alpha(opacity=60); 
+   -moz-opacity: 0.6; 
+   opacity: 0.6;
+}
+
+td#PoojaItemTd
+{
+font-size:11px;
+padding:0px;
+background-repeat:no-repeat;
+font-family:Arial, Helvetica, sans-serif;
+
+color:#486483;
+text-transform:uppercase;
+}
+
+td#TdHisCss{
+	background-image:url(../../History/Images/VertLine.jpg);
+	background-repeat:repeat-y;
+	
+}
+
+td#TdHisHorLineCss{
+	background-image:url(../../History/Images/HorLine.jpg);
+	background-repeat:repeat-x;
+	
+}
+
+td#TdHisHomeCss{
+	background-image:url(../../Homeimages/AmhisHome.jpg);
+	background-repeat:no-repeat;
+	background-position:top;
+	
+}
+
+a#IconLink{font-size:9px;}
+a#IconLink{font-weight:normal;}
+a#IconLink:{margin-left:12px}
+a#IconLink:link {text-decoration:none;}
+a#IconLink:visited {text-decoration:none;}
+a#IconLink:hover {text-decoration:none;}
+a#IconLink:active {text-decoration:none;}
+a#IconLink:link {font-weight:normal;}
+
+a#IconLink:link {color:#333}      /* unvisited link */
+a#IconLink:visited {color:#333}  /* visited link */
+a#IconLink:hover {color:#666}  /* mouse over link */
+a#IconLink:active {color:#333}
+
+a#IconLink:link{font-family:Verdana, Arial, Helvetica, sans-serif;}
+a#IconLink:visited{font-family:Verdana, Arial, Helvetica, sans-serif;}
+a#IconLink:hover{font-family:Verdana, Arial, Helvetica, sans-serif;}
+a#IconLink:active{font-family:Verdana, Arial, Helvetica, sans-serif;}
+
+
+
+.IconLinkEvent {font-size:9px;}
+.IconLinkEvent{font-weight:bold;}
+.IconLinkEvent {margin-left:12px}
+.IconLinkEvent:link {text-decoration:none;}
+.IconLinkEvent:visited {text-decoration:none;}
+.IconLinkEvent:hover {text-decoration:none;}
+.IconLinkEvent:active {text-decoration:none;}
+.IconLinkEvent:link {font-weight:normal;}
+.IconLinkEvent:link {color:#8C8C8C}      /* unvisited link */
+.IconLinkEvent:visited {color:#333}  /* visited link */
+.IconLinkEvent:hover {color:#666}  /* mouse over link */
+.IconLinkEvent:active {color:#333}
+
+.IconLinkEvent:link{font-family:Verdana, Arial, Helvetica, sans-serif;}
+.IconLinkEvent:visited{font-family:Verdana, Arial, Helvetica, sans-serif;}
+.IconLinkEvent:hover{font-family:Verdana, Arial, Helvetica, sans-serif;}
+.IconLinkEvent:active{font-family:Verdana, Arial, Helvetica, sans-serif;}
+
+.IconLinkEvent
+{
+	padding-top:10px;
+}
+
+.PlacesLinkEvent {font-size:10px;}
+.PlacesLinkEvent{font-weight:bold;}
+.PlacesLinkEvent {margin-left:12px}
+.PlacesLinkEvent:link {text-decoration:none;}
+.PlacesLinkEvent:visited {text-decoration:none;}
+.PlacesLinkEvent:hover {text-decoration:none;}
+.PlacesLinkEvent:active {text-decoration:none;}
+.PlacesLinkEvent:link {font-weight:normal;}
+.PlacesLinkEvent:link {color:#666}      /* unvisited link */
+.PlacesLinkEvent:visited {color:#666}  /* visited link */
+.PlacesLinkEvent:hover {color:#666}  /* mouse over link */
+.PlacesLinkEvent:active {color:#666}
+
+.PlacesLinkEvent:link{font-family:Verdana, Arial, Helvetica, sans-serif;}
+.PlacesLinkEvent:visited{font-family:Verdana, Arial, Helvetica, sans-serif;}
+.PlacesLinkEvent:hover{font-family:Verdana, Arial, Helvetica, sans-serif;}
+.PlacesLinkEvent:active{font-family:Verdana, Arial, Helvetica, sans-serif;}
+
+.PlacesLinkEvent
+{
+	padding-top:10px;
+}

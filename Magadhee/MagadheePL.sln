@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MagadheePL", "D:\Magadhee\MagadheePL\", "{98614105-C751-4155-8F8D-DDA0F75564C6}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		ProjectReferences = "{3023A470-A76B-4B8F-B71E-DEEE886B2E11}|MgadheeService.dll;{5CA6F945-B779-4F59-B87F-B8D8AAA21BE4}|MagadheeDEC.dll;{EAE491C9-F88D-44BD-BEAC-1852FB2B0529}|MagadheeDAL.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/MagadheePL"
+		Debug.AspNetCompiler.PhysicalPath = "MagadheePL\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\MagadheePL\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/MagadheePL"
+		Release.AspNetCompiler.PhysicalPath = "MagadheePL\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\MagadheePL\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "3803"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MgadheeService", "D:\Magadhee\MgadheeService\MgadheeService.csproj", "{3023A470-A76B-4B8F-B71E-DEEE886B2E11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagadheeDEC", "D:\Magadhee\MagadheeDEC\MagadheeDEC.csproj", "{5CA6F945-B779-4F59-B87F-B8D8AAA21BE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagadheeDAL", "MagadheeDAL\MagadheeDAL.csproj", "{EAE491C9-F88D-44BD-BEAC-1852FB2B0529}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98614105-C751-4155-8F8D-DDA0F75564C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98614105-C751-4155-8F8D-DDA0F75564C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98614105-C751-4155-8F8D-DDA0F75564C6}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{98614105-C751-4155-8F8D-DDA0F75564C6}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{3023A470-A76B-4B8F-B71E-DEEE886B2E11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3023A470-A76B-4B8F-B71E-DEEE886B2E11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3023A470-A76B-4B8F-B71E-DEEE886B2E11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3023A470-A76B-4B8F-B71E-DEEE886B2E11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CA6F945-B779-4F59-B87F-B8D8AAA21BE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CA6F945-B779-4F59-B87F-B8D8AAA21BE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CA6F945-B779-4F59-B87F-B8D8AAA21BE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CA6F945-B779-4F59-B87F-B8D8AAA21BE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAE491C9-F88D-44BD-BEAC-1852FB2B0529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAE491C9-F88D-44BD-BEAC-1852FB2B0529}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAE491C9-F88D-44BD-BEAC-1852FB2B0529}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAE491C9-F88D-44BD-BEAC-1852FB2B0529}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
