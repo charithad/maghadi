@@ -291,7 +291,8 @@ public partial class Index : System.Web.UI.Page
     {
         try
         {
-            strname = TextBox1.Text;
+            SERAtt.SendMailMessage();
+            /*strname = TextBox1.Text;
             stremail = TextBox2.Text;
             MailMessage mailMessage = new MailMessage(new MailAddress("snsholidayhomes@gmail.com")
                                                , new MailAddress("snsholidayhomes@gmail.com"));
@@ -308,7 +309,7 @@ public partial class Index : System.Web.UI.Page
             smtpClient.Credentials = networkCredentials;
             smtpClient.Host = "smtp.gmail.com";
             smtpClient.Port = 587;
-            smtpClient.Send(mailMessage);
+            smtpClient.Send(mailMessage);*/
         }
         catch
         {

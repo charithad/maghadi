@@ -139,5 +139,15 @@ namespace MagadheeDEC.GuestHouseDec
             public string UserName { get; set; }
             public string Password { get; set; }
         }
+
+        public class ClsMail
+        {
+            public string fromAddress { get; set; }
+            public string fromName { get; set; }
+            public string toAddress { get; set; }
+            public string toName { get; set; }
+            public string msgSubject { get; set; }
+            public string msgBody { get; set; }
+        }
     }
 }
