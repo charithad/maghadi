@@ -5,3 +5,10 @@ D:\Magadhee\MagadheeDAL\bin\Debug\MagadheeDEC.pdb
 D:\Magadhee\MagadheeDAL\obj\Debug\ResolveAssemblyReference.cache
 D:\Magadhee\MagadheeDAL\obj\Debug\MagadheeDAL.dll
 D:\Magadhee\MagadheeDAL\obj\Debug\MagadheeDAL.pdb
+D:\projects\Magadhee\maghadi\Magadhee\MagadheeDAL\bin\Debug\MagadheeDAL.dll
+D:\projects\Magadhee\maghadi\Magadhee\MagadheeDAL\bin\Debug\MagadheeDAL.pdb
+D:\projects\Magadhee\maghadi\Magadhee\MagadheeDAL\bin\Debug\MagadheeDEC.dll
+D:\projects\Magadhee\maghadi\Magadhee\MagadheeDAL\bin\Debug\MagadheeDEC.pdb
+D:\projects\Magadhee\maghadi\Magadhee\MagadheeDAL\obj\Debug\ResolveAssemblyReference.cache
+D:\projects\Magadhee\maghadi\Magadhee\MagadheeDAL\obj\Debug\MagadheeDAL.dll
+D:\projects\Magadhee\maghadi\Magadhee\MagadheeDAL\obj\Debug\MagadheeDAL.pdb

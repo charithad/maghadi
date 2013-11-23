@@ -3,3 +3,8 @@ D:\Magadhee\MagadheeDEC\bin\Debug\MagadheeDEC.pdb
 D:\Magadhee\MagadheeDEC\obj\Debug\ResolveAssemblyReference.cache
 D:\Magadhee\MagadheeDEC\obj\Debug\MagadheeDEC.dll
 D:\Magadhee\MagadheeDEC\obj\Debug\MagadheeDEC.pdb
+D:\projects\Magadhee\maghadi\Magadhee\MagadheeDEC\bin\Debug\MagadheeDEC.dll
+D:\projects\Magadhee\maghadi\Magadhee\MagadheeDEC\bin\Debug\MagadheeDEC.pdb
+D:\projects\Magadhee\maghadi\Magadhee\MagadheeDEC\obj\Debug\ResolveAssemblyReference.cache
+D:\projects\Magadhee\maghadi\Magadhee\MagadheeDEC\obj\Debug\MagadheeDEC.dll
+D:\projects\Magadhee\maghadi\Magadhee\MagadheeDEC\obj\Debug\MagadheeDEC.pdb

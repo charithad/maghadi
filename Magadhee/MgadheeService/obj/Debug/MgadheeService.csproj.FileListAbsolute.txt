@@ -7,3 +7,12 @@ D:\Magadhee\MgadheeService\bin\Debug\MagadheeDEC.pdb
 D:\Magadhee\MgadheeService\obj\Debug\ResolveAssemblyReference.cache
 D:\Magadhee\MgadheeService\obj\Debug\MgadheeService.dll
 D:\Magadhee\MgadheeService\obj\Debug\MgadheeService.pdb
+D:\projects\Magadhee\maghadi\Magadhee\MgadheeService\bin\Debug\MgadheeService.dll
+D:\projects\Magadhee\maghadi\Magadhee\MgadheeService\bin\Debug\MgadheeService.pdb
+D:\projects\Magadhee\maghadi\Magadhee\MgadheeService\bin\Debug\MagadheeDAL.dll
+D:\projects\Magadhee\maghadi\Magadhee\MgadheeService\bin\Debug\MagadheeDEC.dll
+D:\projects\Magadhee\maghadi\Magadhee\MgadheeService\bin\Debug\MagadheeDAL.pdb
+D:\projects\Magadhee\maghadi\Magadhee\MgadheeService\bin\Debug\MagadheeDEC.pdb
+D:\projects\Magadhee\maghadi\Magadhee\MgadheeService\obj\Debug\ResolveAssemblyReference.cache
+D:\projects\Magadhee\maghadi\Magadhee\MgadheeService\obj\Debug\MgadheeService.dll
+D:\projects\Magadhee\maghadi\Magadhee\MgadheeService\obj\Debug\MgadheeService.pdb

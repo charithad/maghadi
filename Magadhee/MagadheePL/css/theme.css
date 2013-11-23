@@ -1,11 +1,68 @@
-.back-ground {
-background-image:url(../Images/Home/1.jpg), url(../Images/Home/2.jpg);
-background-repeat: repeat-x, repeat;
-position:fixed;
-top:0px;
-left:0px;
+body { 
+  background:url(../Images/Home/1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-html
+
+.transparent-white-back
 {
-	height:2000px;
+	background:url(../Images/common/transparent-back-white.png)
 }
+.row-margin
+{
+	margin-left:-0px !important;
+	margin-right:-0px !important;
+}
+
+.col-margin
+{
+	padding-left:-0px !important;
+	padding-right:-0px !important;
+}
+
+.background-orange
+{
+	background-color:#75aaf9;
+}
+.background-dark-blue
+{
+	background:url(../Images/common/transparent-back-blue.png);
+}
+
+.background-white
+{
+	background:#DFEBFF;
+	border-radius:2px;
+}
+.p5
+{
+	padding:5px;
+}
+
+.h250
+{
+	height:250px !important;
+}
+
+.h1-light-blue
+ {
+	 color:#A2CAF2;
+	 font-size:6em;
+ }
+.h1-white
+ {
+	 color:#FFF;
+	 font-size:5em;
+	 padding:10px;
+ }
+
+.img-polo-3
+ {
+	 padding:20px 20px 20px 20px !important;
+	 
+	 background:url(../Images/common/transparent-back-blue-2.png);
+	 border-radius:2px;
+	 
+ }
