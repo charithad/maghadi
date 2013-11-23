@@ -5,7 +5,6 @@
 }
 .text-wight
 {
-	
 -webkit-text-stroke: 0.4px !important;
   -moz-text-stroke: 0.4px !important;
   text-stroke: 0.4px !important;
@@ -167,8 +166,6 @@
 {
 	vertical-align:middle;
 	height:200px;
-	
-	
 	
 	position:relative;
 }
