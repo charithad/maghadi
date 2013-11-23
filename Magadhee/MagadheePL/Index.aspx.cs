@@ -24,6 +24,7 @@ public partial class Index : System.Web.UI.Page
 {
     DECVariables.ClsAddGuestHouse DecGuestVar = new DECVariables.ClsAddGuestHouse();
     DECVariables.ClsRequest DecReq = new DECVariables.ClsRequest();
+    DECVariables.ClsMail DecMailVar = new DECVariables.ClsMail();
     SERRequests SERRec = new SERRequests();
     SERAddAttractions SERAtt = new SERAddAttractions();
 
@@ -291,14 +292,21 @@ public partial class Index : System.Web.UI.Page
     {
         try
         {
-            SERAtt.SendMailMessage();
-            /*strname = TextBox1.Text;
-            stremail = TextBox2.Text;
-            MailMessage mailMessage = new MailMessage(new MailAddress("snsholidayhomes@gmail.com")
+            
+            DecMailVar.toName = TextBox1.Text;
+            DecMailVar.fromAddress = "snsholidayhomes@gmail.com";
+            DecMailVar.fromName = "SNS Holiday Homes";
+            
+            DecMailVar.msgSubject = "Message from Mr." + strname.ToString();
+            DecMailVar.msgBody = "Name :" + DecMailVar.toName + "<BR><BR> E-Mail :" + DecMailVar.fromAddress + "<BR><BR> " + TextBox13.Text.ToString();
+
+            SERAtt.SendMailMessage(DecMailVar);
+
+            /*MailMessage mailMessage = new MailMessage(new MailAddress("snsholidayhomes@gmail.com")
                                                , new MailAddress("snsholidayhomes@gmail.com"));
-            mailMessage.Subject = "Message from Mr." + strname.ToString();
+            mailMessage.Subject = "Message from Mr." + DecMailVar.toName.ToString();
             mailMessage.IsBodyHtml = true;
-            mailMessage.Body = "Name :" + strname + "<BR><BR> E-Mail :" + stremail + "<BR><BR> " + TextBox13.Text.ToString();
+            mailMessage.Body = "Name :" + DecMailVar.toName + "<BR><BR> E-Mail :" + DecMailVar.fromAddress + "<BR><BR> " + TextBox13.Text.ToString();
 
             System.Net.NetworkCredential networkCredentials = new
             System.Net.NetworkCredential("snsholidayhomes@gmail.com", "snsreq123");
@@ -310,6 +318,7 @@ public partial class Index : System.Web.UI.Page
             smtpClient.Host = "smtp.gmail.com";
             smtpClient.Port = 587;
             smtpClient.Send(mailMessage);*/
+            
         }
         catch
         {
@@ -317,4 +326,5 @@ public partial class Index : System.Web.UI.Page
         }
 
     }
+
 }

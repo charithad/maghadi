@@ -18,29 +18,28 @@ namespace MgadheeService.GuestHouseService
 
        DALAddAttractions DALAtt = new DALAddAttractions();
 
-			  public string SendMailMessage(string fromAddress, string fromName, string toAddress, string toName, string msgSubject, string msgBody)
-                {
-                try
-                {
-                const string SERVER = "relay-hosting.secureserver.net";
-                MailMessage oMail = new System.Web.Mail.MailMessage();
-                oMail.From = fromAddress;
-                oMail.To = toAddress;
-                oMail.Subject = msgSubject;
-                oMail.BodyFormat = MailFormat.Html;
-                oMail.Priority = MailPriority.High;
-                oMail.Body = msgBody;
-                SmtpMail.SmtpServer = SERVER;
-                SmtpMail.Send(oMail);
-                oMail = null;
-                }
-                catch (Exception)
-                {
-                return false;
-                }
+       public void SendMailMessage(DECVariables.ClsMail cmail)
+       {
+           try
+           {
+               const string SERVER = "relay-hosting.secureserver.net";
+               MailMessage oMail = new System.Web.Mail.MailMessage();
+               oMail.From = cmail.fromAddress;
+               oMail.To = cmail.toAddress;
+               oMail.Subject = cmail.msgSubject;
+               oMail.BodyFormat = MailFormat.Html;
+               oMail.Priority = MailPriority.High;
+               oMail.Body = cmail.msgBody;
+               SmtpMail.SmtpServer = SERVER;
+               SmtpMail.Send(oMail);
+               oMail = null;
+           }
+           catch (Exception)
+           {
+               return;
+           }
 
-        return true;
-        }
+       } 
 
 
        public DataTable SERV_Ref_Settings_SelectAll()
