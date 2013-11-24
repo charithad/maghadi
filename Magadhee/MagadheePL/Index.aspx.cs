@@ -53,157 +53,130 @@ public partial class Index : System.Web.UI.Page
 
                     System.Web.UI.WebControls.Image I1 = new System.Web.UI.WebControls.Image();
 
-
                     System.Web.UI.WebControls.HyperLink Hype1 = new System.Web.UI.WebControls.HyperLink();
                     System.Web.UI.WebControls.HyperLink Hype2 = new System.Web.UI.WebControls.HyperLink();
-                    System.Web.UI.WebControls.HyperLink Hype3 = new System.Web.UI.WebControls.HyperLink();
-
-
+                    
                     HtmlGenericControl DivImg = new HtmlGenericControl("div");
-                    HtmlGenericControl DivRow = new HtmlGenericControl("div");
-                    HtmlGenericControl DivSpace = new HtmlGenericControl("div");
-                    HtmlGenericControl DivText = new HtmlGenericControl("div");
-                    HtmlGenericControl Divbut = new HtmlGenericControl("div");
+                    HtmlGenericControl Divspace = new HtmlGenericControl("div");
+                    HtmlGenericControl Divdes = new HtmlGenericControl("div");
+                    HtmlGenericControl Divdivdes_inner = new HtmlGenericControl("div");
                     HtmlGenericControl DivInnerMain = new HtmlGenericControl("div");
                     HtmlGenericControl h1s = new HtmlGenericControl("h2");
 
-
-
-
                     I1.ImageUrl = "~/Images/Guest_Img/" + DR_Ref_Guest_SelectAll.ItemArray.GetValue(0).ToString().Trim() + "/1.JPG";
-                    I1.CssClass = "col-lg-12 col-md-6 col-sm-6 img-responsive img-rounded img-polo";
+                    I1.CssClass = "col-lg-12 col-md-12 col-sm-12 col-xs-12 img-polo-3";
 
-                    DivRow.Attributes["class"] = "row";
+                    Divdes.Attributes["class"] = "col-lg-12 col-md-12 col-sm-6 col-xs-12";
 
                     DivImg.ID = "DivImage";
-                    DivImg.Attributes["class"] = "col-lg-10 col-md-6 col-sm-12";
+                    DivImg.Attributes["class"] = "col-lg-12 col-md-12 col-sm-12 col-xs-12";
 
-                    DivSpace.Attributes["class"] = "col-lg-12 col-md-6 col-sm-12 h20";
+                    Divspace.ID = "Divspace";
+                    Divspace.Attributes["class"] = "h20";
 
-                    Divbut.Attributes["class"] = "col-lg-12 col-md-12 col-sm-12";
-
-                    DivText.ID = "DivTextId";
-                    DivText.Attributes["class"] = "col-lg-12 col-md-12 col-sm-12";
-
+                    Divdivdes_inner.Attributes["class"] = "col-lg-12 col-md-12 col-sm-12 col-xs-12 background-white";
+                                       
                     DivInnerMain.ID = DR_Ref_Guest_SelectAll.ItemArray.GetValue(0).ToString();
-                    DivInnerMain.Attributes["class"] = "col-lg-12 col-md-12 col-sm-12 row";
+                    DivInnerMain.Attributes["class"] = "col-lg-6 col-md-6 col-sm-6 col-xs-12";
 
-                    Hype1.CssClass = "color-div-request ";
-                    Hype1.Text = "<h3>" + DR_Ref_Guest_SelectAll.ItemArray.GetValue(6).ToString() + "</h3>";
+                    Hype1.CssClass = "p5 text-center";
+                    Hype1.Text = DR_Ref_Guest_SelectAll.ItemArray.GetValue(6).ToString();
                     Hype1.NavigateUrl = "GuestHouse.aspx?Obj=" + DivInnerMain.ID.ToString();
                     Hype2.NavigateUrl = "GuestHouse.aspx?Obj=" + DivInnerMain.ID.ToString();
                     Hype2.CssClass = "";
 
-                    Hype3.NavigateUrl = "GuestHouse.aspx?Obj=" + DivInnerMain.ID.ToString();
-                    Hype3.CssClass = "btn btn-danger btn-lg";
-                    Hype3.Text = "Make a Request";
-
                     Hype2.Controls.Add(I1);
 
                     DivImg.Controls.Add(Hype2);
-                    DivText.Controls.Add(Hype1);
-                    Divbut.Controls.Add(Hype3);
+                    Divdivdes_inner.Controls.Add(Hype1);
 
-                    DivRow.Controls.Add(DivText);
-                    DivRow.Controls.Add(DivImg);
-                    DivRow.Controls.Add(DivSpace);
-                    DivRow.Controls.Add(Divbut);
-
-
-
-                    DivInnerMain.Controls.Add(DivRow);
-
-
+                    Divdes.Controls.Add(Divdivdes_inner);
+                    DivInnerMain.Controls.Add(Divspace);
+                    DivInnerMain.Controls.Add(DivImg);
+                    DivInnerMain.Controls.Add(Divdes);
+                    
 
                     Plc_Lodge.Controls.Add(DivInnerMain);
-
-
                 }
-
-
-
             }
 
+            //if (PL_Ref_Guest_SelectAll.Rows.Count > 0)
+            //{
+            //    foreach (DataRow DR_Ref_Guest_SelectAll in PL_Ref_Guest_SelectAll.Rows)
+            //    {
 
-            if (PL_Ref_Guest_SelectAll.Rows.Count > 0)
-            {
-                foreach (DataRow DR_Ref_Guest_SelectAll in PL_Ref_Guest_SelectAll.Rows)
-                {
+            //        System.Web.UI.WebControls.Image Iguest = new System.Web.UI.WebControls.Image();
+            //        System.Web.UI.WebControls.HyperLink Hype1 = new System.Web.UI.WebControls.HyperLink();
 
-                    System.Web.UI.WebControls.Image Iguest = new System.Web.UI.WebControls.Image();
-                    System.Web.UI.WebControls.HyperLink Hype1 = new System.Web.UI.WebControls.HyperLink();
+            //        HtmlGenericControl DivGuestRow = new HtmlGenericControl("div");
+            //        HtmlGenericControl DivGuest = new HtmlGenericControl("div");
+            //        HtmlGenericControl DivGuestImg = new HtmlGenericControl("div");
+            //        HtmlGenericControl DivGuestHead = new HtmlGenericControl("div");
+            //        HtmlGenericControl DivGuestWith = new HtmlGenericControl("div");
+            //        HtmlGenericControl DivGuestWithout = new HtmlGenericControl("div");
+            //        HtmlGenericControl DivGuestNoRooms = new HtmlGenericControl("div");
+            //        HtmlGenericControl DivGuestText = new HtmlGenericControl("div");
+            //        HtmlGenericControl DivGuestreq = new HtmlGenericControl("div");
 
-                    HtmlGenericControl DivGuestRow = new HtmlGenericControl("div");
-                    HtmlGenericControl DivGuest = new HtmlGenericControl("div");
-                    HtmlGenericControl DivGuestImg = new HtmlGenericControl("div");
-                    HtmlGenericControl DivGuestHead = new HtmlGenericControl("div");
-                    HtmlGenericControl DivGuestWith = new HtmlGenericControl("div");
-                    HtmlGenericControl DivGuestWithout = new HtmlGenericControl("div");
-                    HtmlGenericControl DivGuestNoRooms = new HtmlGenericControl("div");
-                    HtmlGenericControl DivGuestText = new HtmlGenericControl("div");
-                    HtmlGenericControl DivGuestreq = new HtmlGenericControl("div");
+            //        HtmlGenericControl hguest = new HtmlGenericControl("h2");
+            //        HtmlGenericControl hgh3 = new HtmlGenericControl("h3");
+            //        HtmlGenericControl pguest = new HtmlGenericControl("p");
 
-                    HtmlGenericControl hguest = new HtmlGenericControl("h2");
-                    HtmlGenericControl hgh3 = new HtmlGenericControl("h3");
-                    HtmlGenericControl pguest = new HtmlGenericControl("p");
-
-                    Label lblHead = new Label();
-                    Label lblwith = new Label();
-                    Label lblwithout = new Label();
-                    Label lblrooms = new Label();
-
+            //        Label lblHead = new Label();
+            //        Label lblwith = new Label();
+            //        Label lblwithout = new Label();
+            //        Label lblrooms = new Label();
 
 
-                    Iguest.ImageUrl = "~/Images/Guest_Img/" + DR_Ref_Guest_SelectAll.ItemArray.GetValue(0).ToString().Trim() + "/1.JPG";
-                    Iguest.CssClass = "col-lg-12 col-md-4 col-sm-6 img-responsive img-polo-2";
 
-                    lblHead.Text = "<br/>" + DR_Ref_Guest_SelectAll.ItemArray.GetValue(6).ToString();
-                    hguest.Controls.Add(lblHead);
+            //        Iguest.ImageUrl = "~/Images/Guest_Img/" + DR_Ref_Guest_SelectAll.ItemArray.GetValue(0).ToString().Trim() + "/1.JPG";
+            //        Iguest.CssClass = "col-lg-12 col-md-4 col-sm-6 img-responsive img-polo-2";
 
-                    lblwith.Text = "<h3><b>Price With Breakfast</b> Rs." + DR_Ref_Guest_SelectAll.ItemArray.GetValue(10).ToString().Trim() + "/=</h3>";
-                    lblwithout.Text = "<h3><b>Price Without Breakfast</b> Rs." + DR_Ref_Guest_SelectAll.ItemArray.GetValue(2).ToString().Trim() + "/=</h3>";
-                    lblrooms.Text = "<h3><b>Rooms Available</b> " + DR_Ref_Guest_SelectAll.ItemArray.GetValue(4).ToString().Trim() + "</h3>";
+            //        lblHead.Text = "<br/>" + DR_Ref_Guest_SelectAll.ItemArray.GetValue(6).ToString();
+            //        hguest.Controls.Add(lblHead);
 
-                    Hype1.CssClass = "btn-danger btn-sm";
-                    Hype1.NavigateUrl = "GuestHouse.aspx?Obj=" + DR_Ref_Guest_SelectAll.ItemArray.GetValue(0).ToString().Trim();
-                    Hype1.Text = "Make Request";
+            //        lblwith.Text = "<h3><b>Price With Breakfast</b> Rs." + DR_Ref_Guest_SelectAll.ItemArray.GetValue(10).ToString().Trim() + "/=</h3>";
+            //        lblwithout.Text = "<h3><b>Price Without Breakfast</b> Rs." + DR_Ref_Guest_SelectAll.ItemArray.GetValue(2).ToString().Trim() + "/=</h3>";
+            //        lblrooms.Text = "<h3><b>Rooms Available</b> " + DR_Ref_Guest_SelectAll.ItemArray.GetValue(4).ToString().Trim() + "</h3>";
 
-                    DivGuest.Attributes["class"] = "item col-lg-12 col-md-12 col-sm-12 item";
-                    DivGuestImg.Attributes["class"] = "item col-lg-12 col-md-12 col-sm-12";
-                    DivGuestHead.Attributes["class"] = "item col-lg-12 col-md-12 col-sm-12";
-                    DivGuestWith.Attributes["class"] = "item col-lg-12 col-md-12 col-sm-12";
-                    DivGuestWithout.Attributes["class"] = "item col-lg-12 col-md-12 col-sm-12";
-                    DivGuestNoRooms.Attributes["class"] = "item col-lg-12 col-md-12 col-sm-12";
-                    DivGuestText.Attributes["class"] = "item col-lg-12 col-md-12 col-sm-12";
-                    DivGuestreq.Attributes["class"] = "item col-lg-6 col-md-6 col-sm-12";
-                    DivGuestRow.Attributes["class"] = "row";
+            //        Hype1.CssClass = "btn-danger btn-sm";
+            //        Hype1.NavigateUrl = "GuestHouse.aspx?Obj=" + DR_Ref_Guest_SelectAll.ItemArray.GetValue(0).ToString().Trim();
+            //        Hype1.Text = "Make Request";
 
-                    DivGuestreq.Controls.Add(Hype1);
-                    DivGuestHead.Controls.Add(hguest);
-                    DivGuestImg.Controls.Add(Iguest);
-                    DivGuestNoRooms.Controls.Add(lblrooms);
-                    DivGuestWith.Controls.Add(lblwith);
-                    DivGuestWithout.Controls.Add(lblwithout);
+            //        DivGuest.Attributes["class"] = "item col-lg-12 col-md-12 col-sm-12 item";
+            //        DivGuestImg.Attributes["class"] = "item col-lg-12 col-md-12 col-sm-12";
+            //        DivGuestHead.Attributes["class"] = "item col-lg-12 col-md-12 col-sm-12";
+            //        DivGuestWith.Attributes["class"] = "item col-lg-12 col-md-12 col-sm-12";
+            //        DivGuestWithout.Attributes["class"] = "item col-lg-12 col-md-12 col-sm-12";
+            //        DivGuestNoRooms.Attributes["class"] = "item col-lg-12 col-md-12 col-sm-12";
+            //        DivGuestText.Attributes["class"] = "item col-lg-12 col-md-12 col-sm-12";
+            //        DivGuestreq.Attributes["class"] = "item col-lg-6 col-md-6 col-sm-12";
+            //        DivGuestRow.Attributes["class"] = "row";
 
-
-                    DivGuestRow.Controls.Add(DivGuestImg);
-                    DivGuestRow.Controls.Add(DivGuestHead);
-                    DivGuestRow.Controls.Add(DivGuestWith);
-                    DivGuestRow.Controls.Add(DivGuestWithout);
-                    DivGuestRow.Controls.Add(DivGuestNoRooms);
-                    DivGuestRow.Controls.Add(DivGuestText);
-                    DivGuestRow.Controls.Add(DivGuestreq);
-
-                    DivGuest.Controls.Add(DivGuestRow);
-                    Plc_Guest.Controls.Add(DivGuest);
-
-                }
+            //        DivGuestreq.Controls.Add(Hype1);
+            //        DivGuestHead.Controls.Add(hguest);
+            //        DivGuestImg.Controls.Add(Iguest);
+            //        DivGuestNoRooms.Controls.Add(lblrooms);
+            //        DivGuestWith.Controls.Add(lblwith);
+            //        DivGuestWithout.Controls.Add(lblwithout);
 
 
-            }
+            //        DivGuestRow.Controls.Add(DivGuestImg);
+            //        DivGuestRow.Controls.Add(DivGuestHead);
+            //        DivGuestRow.Controls.Add(DivGuestWith);
+            //        DivGuestRow.Controls.Add(DivGuestWithout);
+            //        DivGuestRow.Controls.Add(DivGuestNoRooms);
+            //        DivGuestRow.Controls.Add(DivGuestText);
+            //        DivGuestRow.Controls.Add(DivGuestreq);
+
+            //        DivGuest.Controls.Add(DivGuestRow);
+            //        Plc_Guest.Controls.Add(DivGuest);
+
+            //    }
+
+
+            //}
             DecGuestVar.Guest_Code = Request.QueryString["Obj"];
-
-
 
             DataTable PL_Joint_Ref_Guesthouse_Wise_Attraction_Select = SERAtt.SERV_Ref_Attraction_SelectAll();
             if (PL_Joint_Ref_Guesthouse_Wise_Attraction_Select.Rows.Count > 0)
@@ -216,7 +189,7 @@ public partial class Index : System.Web.UI.Page
                     var h1at = new HtmlGenericControl("h1");
 
                     IAtract.ImageUrl = "~/Images/Attr_Img/" + DR_Joint_Ref_Guesthouse_Wise_Attraction_Select.ItemArray.GetValue(0).ToString().Trim() + "/1.JPG";
-                    IAtract.CssClass = "col-lg-4 col-md-6 col-sm-6 img-polo img-responsive img-rounded m10";
+                    IAtract.CssClass = "col-lg-6 col-md-6 col-sm-6 col-xs-12 img-polo img-responsive img-rounded m10";
                     h1at.Attributes["class"] = "h2 text-left";
                     h1at.InnerHtml = DR_Joint_Ref_Guesthouse_Wise_Attraction_Select.ItemArray.GetValue(2).ToString();
                     pattract.InnerHtml = DR_Joint_Ref_Guesthouse_Wise_Attraction_Select.ItemArray.GetValue(3).ToString();
@@ -224,12 +197,12 @@ public partial class Index : System.Web.UI.Page
                     if (countsNews == 0)
                     {
                         DivItems.ID = "DivAttractionItem";
-                        DivItems.Attributes["class"] = "col-lg-12 col-md-12 col-sm-12 item active";
+                        DivItems.Attributes["class"] = "col-lg-12 col-md-12 col-sm-12 col-xs-12 item active";
                     }
                     else
                     {
                         DivItems.ID = "DivAttractionItem";
-                        DivItems.Attributes["class"] = "col-lg-12 col-md-12 col-sm-12 item";
+                        DivItems.Attributes["class"] = "col-lg-12 col-md-12 col-sm-12 col-xs-12 item";
                     }
 
                     DivItems.Controls.Add(IAtract);
@@ -254,7 +227,7 @@ public partial class Index : System.Web.UI.Page
                     var h1News = new HtmlGenericControl("h1");
 
                     INews.ImageUrl = "~/Images/News_Img/" + DR_Ref_News_SelectAll.ItemArray.GetValue(0).ToString().Trim() + "/1.JPG";
-                    INews.CssClass = "col-lg-4 col-md-6 col-sm-6 img-polo img-responsive img-rounded m10";
+                    INews.CssClass = "col-lg-6 col-md-6 col-sm-6 col-xs-12 img-polo img-responsive img-rounded m10";
                     h1News.Attributes["class"] = "h2 text-left";
                     h1News.InnerHtml = DR_Ref_News_SelectAll.ItemArray.GetValue(1).ToString();
                     pNews.InnerHtml = DR_Ref_News_SelectAll.ItemArray.GetValue(2).ToString();
@@ -262,12 +235,12 @@ public partial class Index : System.Web.UI.Page
                     if (counts == 0)
                     {
                         DivItemsNews.ID = "DivNewsItem";
-                        DivItemsNews.Attributes["class"] = "col-lg-12 col-md-12 col-sm-12 item active";
+                        DivItemsNews.Attributes["class"] = "col-lg-12 col-md-12 col-sm-12 col-xs-12 item active";
                     }
                     else
                     {
                         DivItemsNews.ID = "DivNewsItem";
-                        DivItemsNews.Attributes["class"] = "col-lg-12 col-md-12 col-sm-12 item";
+                        DivItemsNews.Attributes["class"] = "col-lg-12 col-md-12 col-sm-12 col-xs-12 item";
                     }
 
                     DivItemsNews.Controls.Add(INews);

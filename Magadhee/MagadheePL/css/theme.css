@@ -36,6 +36,10 @@ body {
 	background:#DFEBFF;
 	border-radius:2px;
 }
+.background-white-content
+{
+	background:#FFF;
+}
 .p5
 {
 	padding:5px;
@@ -46,10 +50,16 @@ body {
 	height:250px !important;
 }
 
-.h1-light-blue
+.h600
+{
+	height:600px !important;
+}
+
+.h1-dark-blue
  {
-	 color:#A2CAF2;
-	 font-size:6em;
+	 color:#1B2E7A;
+	 font-size:5em;
+	 padding:10px;
  }
 .h1-white
  {
@@ -66,3 +76,4 @@ body {
 	 border-radius:2px;
 	 
  }
+
