@@ -55,6 +55,11 @@ body {
 	height:600px !important;
 }
 
+.h560
+{
+	height:600px !important;
+}
+
 .h1-dark-blue
  {
 	 color:#1B2E7A;
@@ -67,7 +72,10 @@ body {
 	 font-size:5em;
 	 padding:10px;
  }
-
+.m0
+{
+	margin-top:0px !important; 
+}
 .img-polo-3
  {
 	 padding:20px 20px 20px 20px !important;
@@ -77,3 +85,7 @@ body {
 	 
  }
 
+.100m
+{
+	margin-bottom:100px;
+}
